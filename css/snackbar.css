@@ -1,0 +1,124 @@
+#snackbar {
+  /*visibility: hidden;  */
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: rgb(36, 148, 163);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  right: 5%;
+  top: 30px;
+  font-size: 17px;
+}
+#snackbar_prods {
+  /*visibility: hidden;  */
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: rgb(153, 31, 127);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+#snackbar_owners {
+  /*visibility: hidden;  */
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: rgb(153, 31, 127);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+#snackbar_contact {
+  /*visibility: hidden;  */
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: rgb(22, 141, 22);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  top: 30px;
+  font-size: 17px;
+}
+#snackbar_message {
+  /*visibility: hidden;  */
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: rgb(105, 238, 105);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  right: 5%;
+  top: 30px;
+  font-size: 17px;
+}
+/*#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 2s, fadeout 2s 7.5s;
+  animation: fadein 2s, fadeout 2s 7.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    top: 0;
+    opacity: 0;
+  }
+  to {
+    top: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    top: 0;
+    opacity: 0;
+  }
+  to {
+    top: 30px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    top: 30px;
+    opacity: 1;
+  }
+  to {
+    top: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    top: 30px;
+    opacity: 1;
+  }
+  to {
+    top: 0;
+    opacity: 0;
+  }
+} */

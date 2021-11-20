@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/image_flip.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/snackbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>   
+     <link rel="stylesheet" href="css/footer.css" id="footer_css">
+  </head>
+<style>
+  
+</style>
+<body onload="myFunction()">
+
+    <div class="header">
+        <nav>
+            <div class="menu">
+                <ul>
+           
+                    <li><a href="#">Home </a></li>
+                    <li><a href="#products_page" id="pducts">Products</a> </li>
+                    <li><a href="#about_page" id="snack_about">About</a></li>
+                    <li><a href="#contact_page" id="snack_contact">Contact</a></li>
+                </ul>
+            </div>   
+               
+        </nav>
+        <div class="darkmode">
+            <label class="switch">
+                <input type="checkbox" id="dmode" checked>
+                <span class="slider round"></span>
+              </label>  
+        </div>
+        <center>
+        <div class="hbox">
+          <h1 data-text="APSECOFFEE">APSECoffee</h1>
+        </div><br><br>
+
+      </center>
+      <div id="snackbar" hidden> <i class="fa fa-bell-o"></i> Welcome customers..</div>
+      <div id="snackbar_prods" hidden> <i class="fa fa-glass"></i> Explore our products and services. </div>
+      <div id="snackbar_owners" hidden> <i class="fa fa-users"></i> Meet the MARITES of TEBENG. </div>
+      <div id="snackbar_contact" hidden> <i class="fa fa-phone"></i> Message us mga Marites.. </div>
+      <div id="snackbar_message" hidden> <i class="fa fa-bell-o"></i> Message sent to the owner. </div>
+
+
+
+     
+    </div>
+    <div class="products" id="products_page">
+        
+       <div class="products_spacing">
+        <hr style="width:50%;" class="style-seven1">
+        <center>
+          <table>
+              <tr>
+                  <td colspan="3"><p class="title" style="color: white; text-align: center; justify-content: center; font-size: 30px; margin-top: 0; padding-top: 0;">Products and Services</p></td>
+               
+              </tr>
+              <tr style="">
+                  <td>
+                      <div style="margin:  0px 20px 20px 0px;">
+                        <img class="img_product" id="branches" src="images/c1.jpg" alt="" style="width: 350px; height: auto; ">
+                            <div class="title" id="text_branches" style="text-align: center; color: white; margin-bottom: 10px; background-color: transparent; font-size: 20px;" hidden> Branches</div> 
+                        </img>
+                     </div>
+                  </td>
+                  <td>
+                    <img class="img_product" id="coffee" src="images/c3.jpg" alt="" style="width: 350px; height: auto; margin: 0px 20px 20px 0px;">
+                    <div class="title" id="text_coffee" style="text-align: center; color: white; margin-bottom: 10px; background-color: transparent; font-size: 20px;" hidden> Coffee</div> 
+                </img>
+ 
+                  </td>
+                  <td rowspan="2">
+                    <img class="img_product" id="explore" src="images/c2.jpg" alt="" style="width: 350px; height: 420px;" >
+                    <div class="title" id="text_explore" style="text-align: center; color: white; margin-bottom: 10px; background-color: transparent;font-size: 30px;" hidden>Latest Uploads</div> 
+                </img>
+ 
+                  </td>
+              </tr>
+              <tr>
+                <td>
+                    <img class="img_product" id="tea" src="images/c4.jpg" alt="" style="width: 350px; height: auto;">
+                    <div class="title" id="text_tea" style="text-align: center; color: white; margin-bottom: 10px; background-color: transparent;font-size: 20px;" hidden> Tea</div> 
+                </img>
+ 
+                </td>
+                <td>
+                  <img class="img_product" id="other" src="images/c5.jpg" alt="" style="width: 350px; height: auto;">
+                  <div class="title" id="text_other" style="text-align: center; color: white; margin-bottom: 10px; background-color: transparent; font-size: 20px;" hidden> Other</div> 
+                </img>
+ 
+                </td>
+               
+            </tr>
+          </table>
+        </center>
+      
+       </div>
+     </div>  
+         
+      
+    <div class="owners_page" id="about_page">
+   
+        <div class="owners_images">
+  <hr  style="width:50%;" class="style-seven1">
+            <center>
+                <table>
+                    <tr>
+                        <td colspan="4"><p class="title" style="color: white; text-align: center; justify-content: center; font-size: 30px; margin-top: 0; padding-top: 0;">About Us</p></td>
+                     
+                    </tr>
+                    <tr>
+                        <td>
+                            
+                            <div class="flip-box" style="">
+                                <div class="flip-box-inner">
+                                  <div class="flip-box-front">
+                                    <img src="images/owner/jp.jpg" alt="Paris" style="width: 200px; height: auto; border-radius: 50%;">
+                                  </div>
+                                  <div class="flip-box-back">
+                                    <h3>Jessel May P. Peralta</h3>
+                                    <p>Kape para sa mga walang jowa.</p>
+                                    <a href="https://www.facebook.com/jesselmay.peralta.9" style="text-decoration: none; color: white; font-size: 30px;"><i class="fa fa-facebook-square" aria-hidden="true"></i></svg>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                              </td>
+                         <td>
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                  <div class="flip-box-front">
+                                    <img src="images/owner/melags.jpg" alt="Paris" style="width: 200px; height: auto; border-radius: 50%;">
+                                  </div>
+                                  <div class="flip-box-back">
+                                    <h3>Angilyn P. Salazar</h3>
+                                    <p>Kape para sa mga bully.</p>
+                                    <a href="https://www.facebook.com/angilyn.salazar.54" style="text-decoration: none; color: white; font-size: 30px;"><i class="fa fa-facebook-square" aria-hidden="true"></i></svg>
+                                    
+                                  </div>
+                                </div>
+                              </div></td>   
+                            <td>
+                                <div class="flip-box">
+                                    <div class="flip-box-inner">
+                                      <div class="flip-box-front">
+                                        <img src="images/owner/ja.jpg" alt="Paris" style="width: 200px; height: auto; border-radius: 50%;">
+                                      </div>
+                                      <div class="flip-box-back">
+                                        <h3>Joyce A. Agustin</h3>
+                                        <p>Kape para sa mga nagpupuyat.</p>
+                                        <a href="https://www.facebook.com/joyce.agustin.10" style="text-decoration: none; color: white; font-size: 30px;"><i class="fa fa-facebook-square" aria-hidden="true"></i></svg>
+                                    
+                                      </div>
+                                    </div>
+                                  </div> </td>
+                            <td>
+                                <div class="flip-box">
+                                    <div class="flip-box-inner">
+                                      <div class="flip-box-front">
+                                        <img src="images/owner/diana.jpg" alt="Paris" style="width: 200px; height: auto; border-radius: 50%;">
+                                      </div>
+                                      <div class="flip-box-back">
+                                        <h3>Diana Estrada</h3>
+                                        <p>Kape para sa mga Instructors.</p>
+                                        <a href="https://www.facebook.com/dianaestrada29" style="text-decoration: none; color: white; font-size: 30px;"><i class="fa fa-facebook-square" aria-hidden="true"></i></svg>
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><br><br><br><br><p class="title" style="color: white; text-align: center; justify-content: center; margin-top: 0; padding-top: 0;"> Our mission is to give satisfaction to our customers by providing them a good quality of service and accurate information.
+                        </p></td>
+                     
+                    </tr>
+                               </table>
+            </center>
+
+        </div>
+    </div>
+    <div class="contact_us_Page" id="contact_page">
+
+        <div class="contact_form">   
+                <hr style="width:50%;" class="style-seven">
+                <center>
+                    <p style="color: white; text-align: center; justify-content: center; font-size: 30px; margin-top: 0; padding-top: 0;">Contact Us</p>
+               <!-- <form action="">
+                    <input type="text" placeholder="Email"><br> <br>
+                    <input type="text" placeholder="Last Name"> <br> <br>
+                    <button type="button" id="btnSend">Send</button>
+                </form> -->
+                <div class="box">
+                    <form>
+                        <p>Please fill up the form</p>
+                        <div class="form__group" style="padding: 20px 0 5px 0;">
+                            <input type="text" class="form__input" id="fname" placeholder="Enter your Last name" required="" />
+                            <label for="name" class="form__label">Last Name</label>
+                          </div>
+                          <div class="form__group" style="padding: 5px 0 5px 0;">
+                            <input type="text" class="form__input" id="lname" placeholder="Enter our First name" required="" />
+                            <label for="name" class="form__label">First Name</label>
+                          </div>
+                          <div class="form__group" style="padding: 5px 0 5px 0;">
+                            <input type="text" class="form__input" id="to_email" placeholder="Enter you email address." required="" />
+                            <label for="name" class="form__label">Email Address</label>
+                          </div>
+                          <div class="form__group" style="padding: 5px 0 5px 0;">
+                          <input type="text" class="form__input" id="message" placeholder="Enter your Message" required="" />
+                            <label for="name" class="form__label">Message</label>
+                          </div>
+                          <div class="form_button">
+                            <button class="button-1" role="button" id="btnsend">Send</button>
+                          </div>
+                    </form>
+                </div>
+              
+                </center>
+               
+            </div>
+            
+    </div>
+   
+        <footer>
+          <div class="container">
+              <div class="left section">
+                  <h2>About Us</h2>
+                  <div class="content">
+                      <p> Our mission is to give satisfaction to our customers by providing them a good quality of service and accurate information.</p>
+                  <div class="social">
+                      <a href="https://www.facebook.com/APSE-Coffee-102837308899686/" target="_blank"><span class="fab fa-facebook-f"></span></a>
+                      <a href="https://instagram.com/multiwebpress"  target="_blank"><span class="fab fa-instagram"></span></a>
+                      <a href="https://www.youtube.com/channel/UC_VyoS-BjFXWWRhjeieK33Q"  target="_blank"><span class="fab fa-youtube"></span></a>
+                  </div>
+                  </div>
+              </div>
+
+              <div class="center section">
+                  <h2>Contact Us</h2>
+                  <div class="content">
+                      <div class="place">
+                          <span class="fas fa-map-marker-alt"></span>
+                          <span class="text"> Tebeng, Dagupan City</span>
+                      </div>
+                      <div class="phone">
+                          <span class="fas fa-phone-alt"></span>
+                          <span class="text"> +98-76543210</span>
+                      </div>
+                      <div class="email">
+                          <span class="fas fa-envelope"></span>
+                          <span class="text"> apsecoffee@gmail.com</span>
+                      </div>
+                  </div>
+              </div>
+
+             
+          </div>
+
+          <div class="footer-bottom">
+              <center>
+                <div class="footer_nav">
+                 <span> <ul>
+                    <li><a href="#" class="nav_footer">Home </a></li>
+                    <li><a href="#products_page" id="pducts" class="nav_footer">Products</a> </li>
+                    <li><a href="#about_page" id="snack_about" class="nav_footer">About</a></li>
+                    <li><a href="#contact_page" id="snack_contact" class="nav_footer">Contact</a></li>
+                  </ul></span>
+                </div>
+                  <div><span>Copyright © 2021 | Designed With by <a href="#" id="apse_website">APSE Coffee</a> </a></span></div>
+              </center>
+          </div>
+      </footer>
+  
+
+    <a href="#" class="float">  
+    <i class="fa fa-arrow-up my-float"></i>
+</a>
+
+</body>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+              var fname=$("#fname").val();
+              var lname=$("#lname").val();
+              var message=$("#message").val();
+              var to_email=$("#to_email").val();
+             
+              (function() {
+                emailjs.init("user_aAZPh1g5I04RWpGm0bq7m");
+                })();
+
+                var templateParams = {
+                        fname: fname,
+                        lname: lname,
+                        message: message,
+                        to_email: to_email
+                     
+                    };
+                    
+                    emailjs.send('service_id38e1b', 'template_48987j9', templateParams)
+                        .then(function(response) {
+                          $("#snackbar_message").show();
+                          $("#fname").val("");
+                          $("#lname").val("");
+                          $("#message").val("");
+                       
+                          setTimeout(function(){
+                          $("#snackbar_message").fadeOut(2000);
+                           },1000);
+                        
+                        }, function(error) {
+                    console.log('FAILED...', error);
+                });
+            });
+            
+        });
+              
+    </script>
+    <script>
+   $(window).on("scroll", function(){
+           if($(window).scrollTop()){
+               $("nav").addClass("navB");
+           }
+           else{
+              $("nav").removeClass("navB");
+           }
+       });
+
+    $(document).ready(function(){
+        $("#branches").mouseover(function(){
+            $(this).fadeTo("fast", 0.5);
+            $("#text_branches").show("fast");
+        });
+        $("#branches").mouseleave(function(){
+            $(this).css({"opacity": "1"});
+            $("#text_branches").hide("slow");
+        });
+        $("#coffee").mouseover(function(){
+            $(this).fadeTo("fast", 0.5);
+            $("#text_coffee").show("fast");
+        });
+        $("#coffee").mouseleave(function(){
+
+            $(this).css({"opacity": "1"});
+            $("#text_coffee").hide("slow");
+        });
+        $("#tea").mouseover(function(){
+            $(this).fadeTo("fast", 0.5);
+            $("#text_tea").show("fast");
+        });
+        $("#tea").mouseleave(function(){
+
+            $(this).css({"opacity": "1"});
+            $("#text_tea").hide("slow");
+        });
+        $("#explore").mouseover(function(){
+            $(this).fadeTo("fast", 0.5);
+            $("#text_explore").show("fast");
+        });
+        $("#explore").mouseleave(function(){
+
+            $(this).css({"opacity": "1"});
+            $("#text_explore").hide("slow");
+        });
+        $("#other").mouseover(function(){
+            $(this).fadeTo("fast", 0.5);
+            $("#text_other").show("fast");
+        });
+        $("#other").mouseleave(function(){
+
+            $(this).css({"opacity": "1"});
+            $("#text_other").hide("slow");          
+        });
+        $(".img_product").mouseout(function(){
+            $(".img_product").css({"opacity": "1"});
+        });
+        $(".products_spacing").click(function(){
+            $(".img_product").css({"opacity": "1"});
+        });
+
+    });
+
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#dmode").change(function(){
+               if(this.checked){
+                $("#dmodefooter_css").remove();
+                $('head').append( $('<link rel="stylesheet" type="text/css" id="footer_css"/>').attr('href', 'css/footer.css') );
+                $(".style-seven1").removeClass("style-seven2");
+                $(".style-seven1").addClass("style-seven1");
+                $(".title").css("color", "white");
+                $(".owners_page").css("background-color","black");
+                $(".owners_images").css("background-color","black");
+                $(".products").css("background-color","black");
+                $(".products_spacing").css("background-color","black");
+               }
+               else{
+                $("#footer_css").remove();
+                $('head').append( $('<link rel="stylesheet" type="text/css" id="dmodefooter_css"/>').attr('href', 'css/dmodefooter.css') );
+                $(".nav_footer").css("color","white");
+                $("#apse_website").css("color", "white");
+                $(".style-seven1").addClass("style-seven2");
+                $(".title").css("color", "black");
+                $(".owners_page").css("background-color","white");
+                $(".owners_images").css("background-color","white");
+                $(".products").css("background-color","white");
+                $(".products_spacing").css("background-color","white");
+               }
+              
+            });
+          
+        })
+    </script>
+    <script>
+  
+   /*   function myFunction() {
+        var x = document.getElementById("snackbar");
+        x.className = "show";
+        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+      }  */
+
+      $(document).ready(function(){
+            $("#snackbar").fadeIn(3500);
+                    setTimeout(function(){
+                      $("#snackbar").fadeOut(6000);
+            },1000);
+
+            $("#pducts").click(function(){
+              $("#snackbar_about").hide(500);
+              $("#snackbar_owners").hide(500);
+              $("#snackbar_contact").hide(500);
+              $("#snackbar_prods").fadeIn(2000);
+           
+                    setTimeout(function(){
+                      $("#snackbar_prods").fadeOut(4000);
+            },1000);
+              
+            });
+            $("#snack_about").click(function(){
+              $("#snackbar_prods").hide(500);
+              $("#snackbar_contact").hide(500);
+              $("#snackbar_owners").fadeIn(2000);
+                    setTimeout(function(){
+                      $("#snackbar_owners").fadeOut(4000);
+            },1000);
+
+            });
+
+            $("#snack_contact").click(function(){
+              $("#snackbar_prods").hide();
+              $("#snackbar_about").hide();
+              $("#snackbar_owners").hide(500);
+              $("#snackbar_contact").fadeIn(2000);
+                    setTimeout(function(){
+                      $("#snackbar_contact").fadeOut(4000);
+            },1000);
+
+            });
+      });
+     
+           
+
+      
+
+      </script>
+</html>
